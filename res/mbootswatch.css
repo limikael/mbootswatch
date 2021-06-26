@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+body > .container {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex-shrink: 0;
+	width: 100%;
+}
+
+.mbootswatch-footer-inner {
+	background-color: #222 !important;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	margin-top: 1em;
+}
+
+.mbootswatch-footer-inner a,
+.mbootswatch-footer-inner a:hover,
+.text-light,
+.text-light:hover {
+	color: #ddd;
+}
+
+.mbootswatch-footer-inner h3 {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 0.5em;
+}
+
+.mbootswatch-footer-inner ul {
+	padding-left: 1.2em;
+}
+
+.mbootswatch-footer-inner img {
+	margin-bottom: 1em;
+}
