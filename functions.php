@@ -18,7 +18,7 @@ function mbootswatch_widgets_init() {
 	register_sidebar( array(
 		'name' => __( 'Footer', 'bootswatch' ),
 		'id' => 'footer',
-		'before_widget' => '<aside id="%1$s" class="widget col-xs-3 clearfix %2$s">',
+		'before_widget' => '<aside id="%1$s" class="widget col-xs-6 col-sm-3 clearfix %2$s">',
 		'after_widget' => '</aside>',
 		'before_title' => '<h3 class="widgettitle">',
 		'after_title' => '</h3>',
