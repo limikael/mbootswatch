@@ -9,6 +9,7 @@ body {
 
 body > .container {
 	flex: 1 0 auto;
+	max-width: 100%;
 }
 
 .footer {
